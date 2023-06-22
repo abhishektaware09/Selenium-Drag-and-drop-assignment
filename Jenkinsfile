@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('git repo & clean') {
             steps {
+                
 //                bat "rmdir  /s /q Selenium-Drag-and-drop-assignment"
 //                 bat "git clone https://github.com/kishancs2020/Selenium-Drag-and-drop-assignment.git"
 //                 bat "mvn clean -f Selenium-Drag-and-drop-assignment"
